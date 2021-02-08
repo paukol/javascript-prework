@@ -18,12 +18,12 @@ function playGame(playerInput){
 
     if(argComputerMove == 'kamień' && argPlayerMove == 'papier'){
       printMessage('Ty wygrywasz!');
-    } else if(argComputerMove == argPlayerMove){
-      printMessage('Remis!');
     } else if(argComputerMove == 'papier' && argPlayerMove == 'nożyce'){
       printMessage('Ty wygrywasz!');
     } else if(argComputerMove == 'nożyce' && argPlayerMove == 'kamień'){
       printMessage('Ty wygrywasz!');
+    } else if(argComputerMove == argPlayerMove){
+      printMessage('Remis!');
     } else{
       printMessage('Przegrałeś!');
     }
